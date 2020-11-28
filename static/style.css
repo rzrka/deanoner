@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+.containers {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.header {
+    padding-top: 63px;
+    padding-bottom: 30px;
+    background-color: #FF8E76;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.slider-logo {
+    height: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    
+}
+
+.menu-link:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 70%;
+}
+
+.slider-text {
+    margin-top: 183px;
+}
+
+/*----------------------------------------------*/
+.choose-db {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.db-list {
+    list-style-type: none;
+    width: 400px;
+    border: 1px solid #d3d3d3;
+    display: inline-block;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.db-block {
+    margin: 10px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.db-block-h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.db-block-p {
+    color:#6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 380px;
+}
+
+.go-over {
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+/*--------------------------------------------*/
+
+.footer {
+    height: 100px;
+    max-width: 100%;
+    background-color: #AFAFAF;
+}
+
+.footer-p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.footer-ask-me {
+    float: left;
+}
+
+.footer-developer-link {
+    float: left;
+    text-decoration: none;
+}
+
+.footer-developer-link:hover {
+    text-decoration: none;
+}
+
+.vk_logo {
+    height: 17px;
+    width: 20px;
+}
