@@ -1,0 +1,47 @@
+ 
+.content-h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-p {
+    color:#6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-block {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    border: solid 1px black;
+}
+
+.form-block-upload-photo {
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: black;
+}
+
+.markup-form-block {
+    width: 200px;
+    float: left;
+    padding: 20px;
+}
+
+.return {
+    float: right;
+    margin: 10px;
+    width: 100px;
+}
+
+.search {
+    float: right;
+    margin: 10px;
+    width: 100px;
+}
