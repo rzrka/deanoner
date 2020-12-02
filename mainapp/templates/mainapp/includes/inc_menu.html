@@ -1,0 +1,11 @@
+{% load static %}
+<div class="header clearfix">
+    <a class="padding-site" href="{% url 'main' %}"><img class="slider-logo" src="{% static 'img/logo.svg' %}" alt="logo"></a>
+    <ul class="menu padding-site clearfix">
+        <li class="menu-list"><a href="{% url 'main' %}" class="menu-link {% if request.resolver_match.url_name == 'main' %}menu-link-active{% endif %}">home</a></li>
+        <li class="menu-list"><a href="#" class="menu-link {% if request.resolver_match.url_name == 'contact' %}menu-link-active{% endif %}">contact</a></li>
+    </ul>
+</div>
+<div class="slider-text padding-site">
+    <h2 class="slider-content">hello, it's deanoner</h2>
+</div>  

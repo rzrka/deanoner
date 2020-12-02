@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            {{ title }}
+        {% endblock title %}      
+    </title>
+
+    {% block css %}
+    {% endblock css %}
+
+    
+    {% block js %}
+    {% endblock js %}
+        
+</head>
+
+<body>
+    <div class="containers">
+
+        {% block menu %}
+        {% endblock menu %}
+
+        {% block content %}
+        {% endblock content %}
+
+    </div>    
+    {% block footer %}
+    <div class="footer padding-site">
+        <p class="footer-p clearfix">&copy;deanoner</p>
+        <p class="footer-ask-me">ask me</p>
+        <a href="https://vk.com/mocartvel" class="footer-developer-link clearfix"><img class="vk_logo" src="{% static 'img/vk_logo.svg' %}" alt="#" class="footer-img-developer"></a>
+    </div>
+    {% endblock footer %}
+        
+</body>
+</html>
