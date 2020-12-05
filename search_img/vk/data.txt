@@ -1,0 +1,5 @@
+
++79534802641
+пароль: qwerty1234
+
+ssh -i "test_dan_server.pem" ec2-user@ec2-3-15-23-80.us-east-2.compute.amazonaws.com

@@ -1,0 +1,7 @@
+Напоминаем данные приложения deanoner.
+
+Application ID: 512000514775
+Публичный ключ приложения: CINLNMJGDIHBABABA
+Секретный ключ приложения: A9B530CC1468B8F8AE7EA227
+Вечный access_token: tkn1EnfeXJiNAWLek7o3yriCvsFk1LvVv5da87zxF7lL0cJmfNsuExKtkZqgdUOOIcv4Z1
+Secret_session_key: 46e5b852d4cfa46f16288294a3ab839c
