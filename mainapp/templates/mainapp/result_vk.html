@@ -1,0 +1,37 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+    
+{% block css %}
+            
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}" >
+    <link rel="stylesheet" href="{% static 'style_form.css' %}">
+
+{% endblock css %}
+
+{% block menu %}
+     
+    <div class="slider">
+        {% include 'mainapp/includes/inc_menu.html' %}
+    </div>
+
+{% endblock menu %}
+
+{% block content %}
+<div class="content padding-site">
+    <h2 class="content-h2">Search in social network Vkontakte</h2>
+    <p class="content-p">More information</p>
+    {% for user in users %}
+    <div class="user-block clearfix">
+        <div class="user-block-photo"></div>
+        <ul>
+            <li class="user-block-list">{{ user.name }}</li>
+            <li class="user-block-list">Россия</li>
+            <li class="user-block-list"><a href="{{ user.profile_link }}"><button class="return btn btn-primary">Профиль</button></a></li>
+        </ul>
+    </div>
+    {% endfor %}
+</div>
+</div>
+{% endblock content %}

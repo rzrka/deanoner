@@ -158,3 +158,31 @@ body {
     height: 17px;
     width: 20px;
 }
+
+
+/*----------------result_vk----------------------------*/
+
+.user-block {
+    float: left;
+    width: 350px;
+    height: 300px;
+    margin: 25px 50px;
+    border: solid 1px black;
+    padding-top: 30px;
+}
+
+.user-block-photo {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: black;
+}
+
+.user-block-list {
+    width: 140px;
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style-type: none;
+    float: left;
+}

@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from django.conf import settings
 
+from .models import  Vk_Category
 def main(request):
     title = "главная"
     blocks = [
@@ -35,3 +37,11 @@ def social_ok(request):
 
 def social_vk(request):
     return render(request, "mainapp/social_vk.html")
+
+def result_vk(request):
+    title = "главная"
+
+    users = Vk_Category.objects.all()
+
+    content = {"title":title, 'users':users, 'media_url': settings.MEDIA_URL}
+    return render(request, "mainapp/result_vk.html", content)
